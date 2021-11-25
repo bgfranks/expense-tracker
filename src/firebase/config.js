@@ -20,4 +20,7 @@ const db = firebase.firestore();
 // init firebase auth
 const auth = firebase.auth();
 
-export { db, auth };
+// timestamp
+const timestamp = firebase.firestore.Timestamp;
+
+export { db, auth, timestamp };
