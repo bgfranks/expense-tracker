@@ -1,7 +1,16 @@
+// components
+import TransactionForm from './TransactionForm';
+
+// styles
+import './Home.scss';
+
 export default function Home() {
   return (
-    <div>
-      <h2>Home</h2>
+    <div className='container'>
+      <div className='content'>transaction list</div>
+      <div className='sidebar'>
+        <TransactionForm />
+      </div>
     </div>
   );
 }
